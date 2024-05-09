@@ -1,9 +1,28 @@
 /* This is the start of CSS */
 
-h1 {
-    color: rgb(234, 234, 8);
+h1, h2{
+    font-family: 'Roboto'; /* Using Roboto font */
+    color: #FFAEBD;
+    text-align: center;
+    line-height: 2;
+    margin: 0px 0px 0px 45px; /* Top Right Bottom Left */
 }
 
 p{
-    width: 60%;
+    font-family: 'Roboto';
+    width: 90%;
+    background-color: #FFC0CB;
+    text-align: center;
+    padding: 10px 10px 10px 10px; /* Top Right Bottom Left */
+    margin: 15px 15px 15px 15px; /* Top Right Bottom Left */
+}
+ul li{
+    text-align: center;
+    list-style-type: none;
+    margin: 15px 15px 15px 15px; /* Top Right Bottom Left */
+}
+img{
+    width: 200px;  /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    
 }

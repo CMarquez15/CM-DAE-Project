@@ -8,6 +8,55 @@ h1, h2{
     margin: 0px 0px 0px 45px; /* Top Right Bottom Left */
 }
 
+/* Horizontal navigation menu editing */
+header nav {
+    text-align: center; /* Center the list items */
+}
+
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFAEBD;
+}
+
+/* End of the horizontal navigation menu editing */
+
+/* Button Styling */
+.btn-outline {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FFAEBD;
+    border: 2px solid #FFAEBD;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-outline:hover {
+    color: #FFF;
+    background-color: #FFAEBD;
+}
+
+body {
+    background: linear-gradient(to Bottom, #FFFFFF, #F0F0F0);
+}
+
 p{
     font-family: 'Roboto';
     width: 90%;
@@ -22,7 +71,68 @@ ul li{
     margin: 15px 15px 15px 15px; /* Top Right Bottom Left */
 }
 img{
-    width: 200px;  /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
-    
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;  /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+}
+
+/* Targeting the Quote Section */
+.quote-section{
+    padding: 20px;
+}
+
+.quote-section h2{
+    color: #FFAEBD;   /* Adjust as needed */
+    font-size: 24px; /* Adjust as needed */
+}
+
+/* Styling the form elements */
+.quote-section form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow Effect */
+}
+
+/* Styling the form inputs */
+.quote-section form input[type="text"],
+.quote-section form input[type="email"],
+.quote-section textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling the form submit button */
+.quote-section form input[type="submit"] {
+    background-color: #FFAEBD;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+.quote-section form input[type="submit"]:hover {
+    background-color: #FF8FA6;
+}
+
+/* Styling form labels */
+.quote-section form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Styling the form title */
+.quote-section form h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
 }

@@ -35,6 +35,11 @@ header nav ul li a:hover {
     color: #FFAEBD;
 }
 
+header .container {
+    background-image: url('../HTML_1/Images/InsulatedHome.webp');
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity with RGBA color */
+    background-blend-mode: overlay; /* Apply Blending Mode */
+}
 /* End of the horizontal navigation menu editing */
 
 /* Button Styling */
@@ -135,4 +140,9 @@ img{
     font-size: 24px;
     color: #333;
     text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
 }

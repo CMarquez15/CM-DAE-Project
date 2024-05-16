@@ -63,7 +63,7 @@
 
             <section id="quote" class="quote-section">
                 <div class="container">
-                    <h2>Request a Quote</h2>
+                    <h2 class="quote-heading">Request a Quote</h2>
                     <form action="submit_quote.php" method="post">
                         <label for="name">Your Name:</label>
                         <input type="text" id="name" name="name" required>
@@ -74,6 +74,16 @@
 
                         <label for="message">Message</label>
                         <textarea type="text" id="message" name="message" required></textarea>
+
+                        <label for="insulation-thickness">Insulation Thickness:</label>
+                        <input type="number" id="insulation-thickness" name="insulation-thickness" required>
+                        
+                        <label for="insulation-material">Insulation Material:</label>
+                        <select id="insulation-material" name="insulation-material" required>
+                            <option value="open cell">Open Cell Sprayfoam</option>
+                            <option value="closed cell">Closed Cell Sprayfoam</option>
+                        </select>
+                        
                         <button type="submit" class="btn">Submit</button> 
                     </form>
                 </div>
@@ -84,6 +94,6 @@
                 <p>&copy; 2024 ABC Insulation. All rights reserved.</p>
             </div>
         </footer>
-        <script src="script.js"></script>
+        <script src="../Javascript_1/script.js"></script>
     </body>
 </html>

@@ -84,12 +84,21 @@ img{
 
 /* Targeting the Quote Section */
 .quote-section{
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFC0CB;
 }
 
-.quote-section h2{
-    color: #FFAEBD;   /* Adjust as needed */
-    font-size: 24px; /* Adjust as needed */
+.quote-section form h2{
+    margin-bottom: 20px;
+    font-size: 32px; /* Increase font size */
+    color: #FFF; /* Changed color to a darker shade */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added shadow effect */
+}
+
+.quote-section .quote-heading {
+    color: #333;
 }
 
 /* Styling the form elements */
@@ -145,4 +154,31 @@ img{
 .error-message {
     color: red;
     font-size: 12px;
+}
+
+/* Calculator Styles */
+
+.quote-section form input[type="number"],
+.quote-section form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and bording are inclduded in the width */
+}
+
+.quote-section form input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #FFAEBD;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+.quote-section form input[type="submit"]:hover {
+    background-color: #FF8FA6;
 }
